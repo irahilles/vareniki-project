@@ -1,0 +1,92 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: #fffdf9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #24211f;
+    text-decoration: none;
+}
+
+.logoMark {
+    position: relative;
+    color: #171512;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -7px;
+}
+
+.logoSprig {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 38px;
+    height: 38px;
+    overflow: visible;
+    stroke: #b28a19;
+    stroke-width: 1.3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.logoText {
+    font-size: 14px;
+}
+
+.menuButton {
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menuButton span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #24211f;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    padding: 12px 20px 20px;
+    background: #fffdf9;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.menuOpen {
+    display: grid;
+    gap: 16px;
+}
+
+.menu a {
+    color: #24211f;
+    text-decoration: none;
+}
+
+.orderButton {
+    display: inline-block;
+    justify-self: center;
+    width: fit-content;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background: #e1ef15;
+    color: #24211f;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.app {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.content {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+}
