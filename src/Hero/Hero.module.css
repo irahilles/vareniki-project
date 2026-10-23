@@ -1,0 +1,39 @@
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 32px 20px;
+    background-size: cover;
+    background-position: center 40%;
+    color: white;
+    position: relative;
+}
+
+
+.content h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    line-height: 1.05;
+    font-family: "Cormorant", Georgia, serif;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: clamp(1.1rem, 4vw, 1.4rem);
+    line-height: 1.4;
+}
+.menuLink {
+    font-family: "Cormorant", Georgia, serif;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    min-width: 180px;
+        padding: 12px 28px;
+        text-align: center;
+        background: #f4e6d3;
+    color: #24211f;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}

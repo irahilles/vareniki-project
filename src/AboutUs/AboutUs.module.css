@@ -1,0 +1,37 @@
+
+.eyebrow {
+    margin-bottom: 8px;
+    color: #8b6b45;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.about h2 {
+    margin: 0 0 16px;
+    font-family: "Cormorant", Georgia, serif;
+    font-size: clamp(1.75rem, 6vw, 2.5rem);
+    line-height: 1.1;
+}
+
+.about {
+    padding: 64px 24px;
+    background-color: #fbf9f1;
+    text-align: center;
+}
+
+.story {
+    max-width: 100%;
+    margin: 0 auto;
+    color: #51483f;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.photo {
+    display: block;
+    width: calc(100% + 48px);
+    height: 800px;
+    margin: 28px -24px 0;
+    border-radius: 12px;
+}

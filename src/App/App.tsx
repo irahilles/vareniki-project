@@ -1,5 +1,7 @@
 import styles from "./App.module.css";
 import Header from "../Header/Header";
+import Hero from "../Hero/Hero";
+import AboutUs from "../AboutUs/AboutUs";
 
 export default function App() {
   return (
@@ -7,7 +9,8 @@ export default function App() {
       <Header />
 
       <main className={styles.content}>
-        {/* Page sections go here */}
+        <Hero />
+        <AboutUs/>
       </main>
     </div>
   );
