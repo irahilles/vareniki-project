@@ -2,7 +2,7 @@
 .eyebrow {
     margin-bottom: 8px;
     color: #8b6b45;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
 }
@@ -10,7 +10,7 @@
 .about h2 {
     margin: 0 0 16px;
     font-family: "Cormorant", Georgia, serif;
-    font-size: clamp(1.75rem, 6vw, 2.5rem);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
     line-height: 1.1;
 }
 
@@ -31,7 +31,7 @@
 .photo {
     display: block;
     width: calc(100% + 48px);
-    height: 800px;
+    height: auto;
     margin: 28px -24px 0;
     border-radius: 12px;
 }

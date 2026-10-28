@@ -2,6 +2,7 @@ import styles from "./App.module.css";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
 import AboutUs from "../AboutUs/AboutUs";
+import Menu from "../Menu/Menu";
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
 
       <main className={styles.content}>
         <Hero />
-        <AboutUs/>
+        <AboutUs />
+        <Menu/>
       </main>
     </div>
   );
