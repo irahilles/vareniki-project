@@ -1,13 +1,14 @@
 import styles from "./Menu.module.css";
 import beefPelmeni from "../assets/beef pelmeni.jpg";
 import cheburekWithMeat from '../assets/cheburek with meat.jpg';
-// import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
-// import varenikiWithCherry from '../assets/vareniki with cherry.jpg';
-// import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
-// import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
-// import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
-// import varenikiWithPotato from '../assets/vareniki with potato.jpg';
-// import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
+import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
+import varenikiWithCherry from '../assets/vareniki with cherry.jpg';
+import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
+import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
+import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
+import varenikiWithPotato from '../assets/vareniki with potato.jpg';
+import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
+import varenikiWithBlackcurrant from '../assets/blackcurrunt varenuki.jpeg';
 
 type Product = {
   name: string;
@@ -21,7 +22,7 @@ type Product = {
 
 const products: Product[] = [
   {
-    name: "BEEF PELMENI",
+    name: "Beef Pelmeni",
     price: "AED 65.00",
     ingredients:
       "Beef mince (halal), onion, parsley, salt, black pepper, dough.",
@@ -33,40 +34,38 @@ const products: Product[] = [
     image: beefPelmeni,
   },
     {
-    name: "CHEBUREKI WITH MEAT",
+    name: "Chebureki With Meat",
     price: "AED 70.00",
     ingredients:
       "Beef mince (halal), onion, parsley, salt, black pepper, dough.",
     cooking:
-      "Bring salted water to a boil. Gently place the pelmeni into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+      "Put gently in the hot oil on the pan and fry from both sides",
     serving:
-      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+      "Serve hot",
     storage: "Keep frozen for up to 3 months.",
     image: cheburekWithMeat,  
   },
   {
-       name: "CHEBUREKI WITH MEAT",
-    price: "AED 70.00",
+    name: "Vareniki With Black Currant (sweet)",
+    price: "AED 60.00",
     ingredients:
-      "Beef mince (halal), onion, parsley, salt, black pepper, dough.",
+      "Black currant, sugar, dough",
     cooking:
-      "Bring salted water to a boil. Gently place the pelmeni into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
-    serving:
-      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+      "Bring water to a boil. Gently place vareniki into the water and cook for 2–3 minutes. Stir gently once or twice to prevent sticking.",
+    serving: "For a soft taste add a little sugar. Serve with sour cream on the side.",
     storage: "Keep frozen for up to 3 months.",
-    image: cheburekWithMeat,  
+    image: varenikiWithBlackcurrant,  
   },
     {
-       name: "CHEBUREKI WITH MEAT",
-    price: "AED 70.00",
+    name: "Vareniki With Cherry (sweet)",
+    price: "AED 60.00",
     ingredients:
-      "Beef mince (halal), onion, parsley, salt, black pepper, dough.",
+      "Cherry, sugar, dough",
     cooking:
-      "Bring salted water to a boil. Gently place the pelmeni into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
-    serving:
-      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+      "Bring water to a boil. Gently place vareniki into the water and cook for 2–3 minutes. Stir gently once or twice to prevent sticking.",
+    serving: "For a soft taste add a little sugar. Serve with sour cream on the side.",
     storage: "Keep frozen for up to 3 months.",
-    image: cheburekWithMeat,  
+    image: varenikiWithCherry,  
     }
 ];
 

@@ -27,15 +27,15 @@
 
 .card {
     overflow: hidden;
-    border-radius: 12px;
     background-color: #fffdf9;
     text-align: left;
 }
 
 .photo {
+    border-radius: 70px;
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4 / 4;
     object-fit: cover;
 }
 
