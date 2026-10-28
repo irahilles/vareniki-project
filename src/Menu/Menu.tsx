@@ -1,13 +1,13 @@
 import styles from "./Menu.module.css";
 import beefPelmeni from "../assets/beef pelmeni.jpg";
 import cheburekWithMeat from '../assets/cheburek with meat.jpg';
-import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
-import varenikiWithCherry from '../assets/vareniki with cherry.jpg';
-import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
-import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
-import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
-import varenikiWithPotato from '../assets/vareniki with potato.jpg';
-import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
+// import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
+// import varenikiWithCherry from '../assets/vareniki with cherry.jpg';
+// import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
+// import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
+// import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
+// import varenikiWithPotato from '../assets/vareniki with potato.jpg';
+// import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
 import varenikiWithBlackcurrant from '../assets/blackcurrunt varenuki.jpeg';
 
 type Product = {
