@@ -31,7 +31,7 @@
 .photo {
     display: block;
     width: calc(100% + 48px);
-    height: 600px;
+    height: 350px;
     margin: 28px -24px 0;
     border-radius: 12px;
 }
