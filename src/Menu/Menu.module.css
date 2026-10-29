@@ -5,18 +5,11 @@
 }
 
 .eyebrow {
-    margin: 0 0 8px;
+    margin: 0 0 35px;
     color: #8b6b45;
     font-size: 1.5rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-}
-
-.title {
-    margin: 0 0 16px;
-    font-family: "Cormorant", Georgia, serif;
-    font-size: clamp(1.5rem, 5vw, 2.2rem);
-    line-height: 1.1;
 }
 
 .products {
@@ -85,6 +78,22 @@
 
 .moreInfo p {
     margin: 12px 0 0;
+}
+
+.orderButton {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: #e3e723;
+    color: #1b1915;
+    font-weight: 600;
+    text-decoration: none;
+    min-width: 180px;
+}
+
+.orderButton:hover {
+    background-color: #dceb54;
 }
 
 @media (min-width: 600px) {

@@ -1,14 +1,16 @@
 import styles from "./Menu.module.css";
 import beefPelmeni from "../assets/beef pelmeni.jpg";
 import cheburekWithMeat from '../assets/cheburek with meat.jpg';
-// import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
+import cheburekiWithCheese from '../assets/chebureki with cheese.jpg';
 import varenikiWithCherry from '../assets/vareniki with cherry.jpg';
-// import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
-// import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
-// import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
-// import varenikiWithPotato from '../assets/vareniki with potato.jpg';
-// import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
+import varenikiWithCottageCheese from '../assets/vareniki with cottage cheese.jpg';
+import varenikiWithPotAndMushrooms from '../assets/vareniki with poato and mushrooms.jpg';
+import varenikiWithPotAndCheese from '../assets/vareniki with potato and cottage cheese.jpg';
+import varenikiWithPotato from '../assets/vareniki with potato.jpg';
+import varenikiWithSaltedCheese from '../assets/vareniki with salted cottage cheese.jpg';
 import varenikiWithBlackcurrant from '../assets/blackcurrunt varenuki.jpeg';
+import varenikiWithCabbage from '../assets/cabage.jpeg';
+import chickenPelmeni from '../assets/about.jpg';
 
 type Product = {
   name: string;
@@ -51,7 +53,7 @@ const products: Product[] = [
     ingredients:
       "Black currant, sugar, dough",
     cooking:
-      "Bring water to a boil. Gently place vareniki into the water and cook for 2–3 minutes. Stir gently once or twice to prevent sticking.",
+      "Bring water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
     serving: "For a soft taste add a little sugar. Serve with sour cream on the side.",
     storage: "Keep frozen for up to 3 months.",
     image: varenikiWithBlackcurrant,  
@@ -62,18 +64,109 @@ const products: Product[] = [
     ingredients:
       "Cherry, sugar, dough",
     cooking:
-      "Bring water to a boil. Gently place vareniki into the water and cook for 2–3 minutes. Stir gently once or twice to prevent sticking.",
+      "Bring water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
     serving: "For a soft taste add a little sugar. Serve with sour cream on the side.",
     storage: "Keep frozen for up to 3 months.",
     image: varenikiWithCherry,  
-    }
+  },
+      {
+    name: "Vareniki With Cottage Cheese (sweet)",
+    price: "AED 60.00",
+    ingredients:
+      "Cottage cheese, sugar, vanilla, dough",
+    cooking:
+      "Bring water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving: "For a soft taste add a little sugar. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithCottageCheese,  
+  },
+  {
+    name: "Vareniki With Salted Cottage Cheese",
+    price: "AED 50.00",
+    ingredients: "Cottage cheese, salt, pepper, dough",
+    cooking: "Bring salted water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving: "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithSaltedCheese,  
+  },
+    {
+    name: "Chebureki With Cheese",
+    price: "AED 60.00",
+    ingredients:
+      "Mozarella cheese, feta cheese, parsley, dough.",
+    cooking:
+      "Put gently in the hot oil on the pan and fry from both sides",
+    serving:
+      "Serve hot",
+    storage: "Keep frozen for up to 3 months.",
+    image: cheburekiWithCheese,  
+  },
+      {
+    name: "Vareniki With Potato",
+    price: "AED 45.00",
+    ingredients:
+      "Potato, onion, dill, salt, black pepper, dough.",
+    cooking:
+      "Bring salted water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving:
+      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithPotato,
+  },
+  {
+    name: "Vareniki With Cabbage",
+    price: "AED 45.00",
+    ingredients:
+      "Cabbage, carrot, onion, salt, black pepper, dough.",
+    cooking:
+      "Bring salted water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving:
+      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithCabbage,
+  },    
+  {
+    name: "Vareniki With Potato And Cottage Cheese",
+    price: "AED 55.00",
+    ingredients:
+      "Potato, cottage cheese, salt, black pepper, dough.",
+    cooking:
+      "Bring salted water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving:
+      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithPotAndCheese,
+  },  
+    {
+    name: "Vareniki With Potato And Mashrooms",
+    price: "AED 50.00",
+    ingredients:
+      "Potato, onion, mashrooms, dill, salt, black pepper, dough.",
+    cooking:
+      "Bring salted water to a boil. Gently place vareniki into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving:
+      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: varenikiWithPotAndMushrooms,
+  },
+     {
+    name: "Chicken Pelmeni",
+    price: "AED 55.00",
+    ingredients:
+      "Chicken mince (halal), white onion, dill, salt, black pepper, dough.",
+    cooking:
+      "Bring salted water to a boil. Gently place the pelmeni into the water and cook for 5–6 minutes. Stir gently once or twice to prevent sticking.",
+    serving:
+      "For a soft, buttery taste, add a little butter and a pinch of black pepper. Serve with sour cream on the side.",
+    storage: "Keep frozen for up to 3 months.",
+    image: chickenPelmeni,
+  }, 
 ];
 
 export default function Menu() {
   return (
     <section id="menu" className={styles.menu}>
       <p className={styles.eyebrow}>Our menu</p>
-      <h2 className={styles.title}>Choose your favourites</h2>
 
       <div className={styles.products}>
         {products.map((product) => (
@@ -112,6 +205,14 @@ export default function Menu() {
           </article>
         ))}
       </div>
+      <a
+  href="https://wa.me/971502090981"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={styles.orderButton}
+>
+  Place An Order
+</a>
     </section>
   );
 }

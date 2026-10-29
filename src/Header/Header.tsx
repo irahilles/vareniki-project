@@ -55,7 +55,7 @@ export default function Header() {
 
  <a
   className={styles.orderButton}
-  href="https://wa.me/971544937763?text=Hi%2C%20I%20would%20like%20to%20place%20an%20order."
+  href="https://wa.me/971502090981?text=Hi%2C%20I%20would%20like%20to%20place%20an%20order."
   target="_blank"
   rel="noreferrer"
   onClick={() => setMenuOpen(false)}
